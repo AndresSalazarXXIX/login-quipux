@@ -68,11 +68,12 @@ padding:20px;
 .formulario .text-Copyright{
     font-size:14px;
 }
-/* responsive */
+/* responsive-768px */
 @media (max-width:768px) {
     .row .imagenFondo{
         background-image: url(../img/bg-mobile.svg);
         position: relative;
+        background-color: #f3d083;
     }
     .parrafo-login{
        display: none;
@@ -92,4 +93,19 @@ padding:20px;
 
 
   }
-
+/* responsive-317px */
+@media (max-width:317px) {
+    .links a{
+        color:var(--purple);
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 2px solid var(--purple);
+        padding-bottom: 13px;
+    }
+    .links .registro{
+        margin:10px 0;
+        border:none;
+        border-bottom: 2px solid var(--border);
+    }
+}
